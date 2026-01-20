@@ -1,0 +1,62 @@
+:root {
+  font-family: Inter, sans-serif;
+  font-feature-settings: 'liga' 1, 'calt' 1;
+}
+*{
+    font-size: 14px;
+}
+body{
+    background-color: hsl(0, 0%, 8%);
+}
+
+#img-pfp{
+    height: 80px;
+    border-radius: 50%;
+}
+
+#Outer-box{
+    margin: 200px auto;
+    width: 420px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(0, 0%, 12%);
+    padding: 50px;
+    text-align: center;
+    border-radius: 2%;
+    
+}
+
+#Name{
+    color: white;
+}
+
+.Github,
+.title,
+.LinkedIn,
+.Twitter,
+.Instagram{
+    display: block;
+    width: 100%;
+    border: 2px solid hsl(0, 0%, 20%);
+    background-color: hsl(0, 0%, 20%);
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px;
+    transition: all 0.5s ease-in-out;
+    color: white;
+    text-decoration: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.Github:hover,
+.title:hover,
+.LinkedIn:hover,
+.Twitter:hover,
+.Instagram:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+}
